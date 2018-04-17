@@ -18,9 +18,7 @@
   * [其他多边形](section4/polygon.md)
 * 视觉效果
   * [常见投影](section5/single-projection.md)
-  * [不规则投影](section5/irregular-projection.md)
-  * [毛玻璃效果](section5/frosted-glass.md)
-  * [斑马条纹](section5/zebra-stripes.md)
-  * [文字特效](section5/text-effects.md)
-  * [环形文字](section5/circular-text.md)
-  * [图片对比控件](section5/image-slider.md)
+  * [文本行斑马条纹](section5/zebra-stripes.md)
+  * [常见的文字效果](section5/text-effects.md)
+  * [选择合适的鼠标光标](section6/mouse-cursor.md)
+

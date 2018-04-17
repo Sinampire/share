@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>条纹背景 · GitBook</title>
+        <title>文本行斑马条纹 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,8 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="text-effects.html" />
     
-    <link rel="prev" href="inner-rounding.html" />
+    
+    <link rel="prev" href="single-projection.html" />
     
 
     </head>
@@ -195,9 +197,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="translucent-borders.html">
+        <li class="chapter " data-level="1.3.1" data-path="../section3/translucent-borders.html">
             
-                <a href="translucent-borders.html">
+                <a href="../section3/translucent-borders.html">
             
                     
                     半透明边框
@@ -208,9 +210,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="multiple-borders.html">
+        <li class="chapter " data-level="1.3.2" data-path="../section3/multiple-borders.html">
             
-                <a href="multiple-borders.html">
+                <a href="../section3/multiple-borders.html">
             
                     
                     多重边框
@@ -221,9 +223,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="inner-rounding.html">
+        <li class="chapter " data-level="1.3.3" data-path="../section3/inner-rounding.html">
             
-                <a href="inner-rounding.html">
+                <a href="../section3/inner-rounding.html">
             
                     
                     边框内圆角
@@ -234,9 +236,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.4" data-path="stripes-background.html">
+        <li class="chapter " data-level="1.3.4" data-path="../section3/stripes-background.html">
             
-                <a href="stripes-background.html">
+                <a href="../section3/stripes-background.html">
             
                     
                     条纹背景
@@ -337,9 +339,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../section5/single-projection.html">
+        <li class="chapter " data-level="1.5.1" data-path="single-projection.html">
             
-                <a href="../section5/single-projection.html">
+                <a href="single-projection.html">
             
                     
                     常见投影
@@ -350,9 +352,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../section5/zebra-stripes.html">
+        <li class="chapter active" data-level="1.5.2" data-path="zebra-stripes.html">
             
-                <a href="../section5/zebra-stripes.html">
+                <a href="zebra-stripes.html">
             
                     
                     文本行斑马条纹
@@ -363,9 +365,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../section5/text-effects.html">
+        <li class="chapter " data-level="1.5.3" data-path="text-effects.html">
             
-                <a href="../section5/text-effects.html">
+                <a href="text-effects.html">
             
                     
                     常见的文字效果
@@ -424,7 +426,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >条纹背景</a>
+        <a href=".." >文本行斑马条纹</a>
     </h1>
 </div>
 
@@ -439,86 +441,36 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x6761;&#x7EB9;&#x80CC;&#x666F;">&#x6761;&#x7EB9;&#x80CC;&#x666F;</h1>
+                                <h1 id="&#x6587;&#x672C;&#x884C;&#x6591;&#x9A6C;&#x6761;&#x7EB9;">&#x6587;&#x672C;&#x884C;&#x6591;&#x9A6C;&#x6761;&#x7EB9;</h1>
 <blockquote>
-<p>&#x80CC;&#x666F;&#x77E5;&#x8BC6;: <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient" target="_blank">gradient</a>, <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/linear-gradient" target="_blank">linear-gradient</a>, <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/radial-gradient" target="_blank">radial-gradient</a>, <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/repeating-linear-gradient" target="_blank">repeating-linear-gradient</a></p>
+<p>&#x80CC;&#x666F;&#x77E5;&#x8BC6;: <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/linear-gradient" target="_blank">linear-gradient</a></p>
 </blockquote>
-<p>&#x7EBF;&#x6027;&#x6E10;&#x53D8;<code>linear-gradient</code>&#x662F;CSS3&#x975E;&#x5E38;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x4E2A;&#x6A21;&#x5757;&#xFF0C;&#x4F46;&#x5728;&#x771F;&#x5B9E;&#x7684;&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5E76;&#x4E0D;&#x5E38;&#x7528;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#xFF0C;&#x6211;&#x4E3E;&#x4E24;&#x4E2A;&#x81EA;&#x5DF1;&#x7ECF;&#x5E38;&#x4F1A;&#x7528;&#x5230;&#x7684;&#x573A;&#x666F;&#xFF0C;&#x5206;&#x522B;&#x662F;<code>&#x8FDB;&#x5EA6;&#x6761;</code>&#x548C;<code>&#x4E0D;&#x89C4;&#x5219;&#x5361;&#x7247;</code>&#x3002;</p>
-<h2 id="&#x8FDB;&#x5EA6;&#x6761;">&#x8FDB;&#x5EA6;&#x6761;</h2>
-<div align="center"><img src="../image/progress.jpg" width="500" align="center"></div>
-
 <style>
-  #demo1 {
+  #demo {
     width: 100%;
-    padding: 80px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
   }
-  #demo1 .progress-outer {
-    width: 60%; height: 12px;
-    border-radius: 8px;
-    overflow: hidden;
-    position: relative; 
-  } 
-  #demo1 .progress-enter {  
-    height: inherit;
-    background: rgba(180, 160, 120, .2); 
-  }
-  #demo1 .progress-bg {
-    width: 60%; 
-    height: inherit;
-    border-radius: 6px; 
-    background: repeating-linear-gradient(-45deg, red 0%, red 25%, blue 25%, blue 50%, red 50%, red 75%, blue 75%, blue 100%);
-    background-size: 16px 16px;
-    animation: panoramic 3s linear infinite;
-  }
-  @keyframes panoramic
-  {
-  0% {background-position: 0px;}
-  100% {background-position: 50px;}
+  #demo p {
+    width: 50%;
+    padding: 0 10px;
+    display: inline-flex;
+    background: #f8f8f8;
+    background-image: linear-gradient(rgba(18,18,18,.05) 50%, transparent 0);
+    background-size: auto 48px;
+    font-size: 14px;
+    line-height: 24px;
   }
 </style>
 
-<div id="demo1">
-  <div class="progress-outer">
-    <div class="progress-enter">
-      <div class="progress-bg"></div>
-    </div>
-  </div>
+<div id="demo">
+  <p>
+    &#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;&#x3001;&#x8FD9;&#x91CC;&#x662F;&#x4E00;&#x6BB5;&#x8BDD;
+  </p>
 </div>
-
-
-<h2 id="&#x4E0D;&#x89C4;&#x5219;&#x5361;&#x7247;">&#x4E0D;&#x89C4;&#x5219;&#x5361;&#x7247;</h2>
-<div align="center"><img src="../image/coupon.jpeg" width="100%" align="center"></div>
-
-
-<blockquote>
-<p>&#x5361;&#x7247;&#x9876;&#x90E8;&#x51F9;&#x8FDB;&#x6765;&#x7684;&#x5F27;&#x5F62;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5F84;&#x5411;&#x6E10;&#x53D8;<code>radial-gradient</code>&#x6765;&#x5B9E;&#x73B0;</p>
-</blockquote>
-<style>
-  #demo2 {
-    width: 100%;
-    padding: 60px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-  }
-  #demo2 .coupon-card {
-    width: 200px;
-    height: 120px;
-    background-image: radial-gradient(circle at 100px -8px, transparent 20px, #b4a078 21px);
-  }
-</style>
-
-<div id="demo2">
-  <div class="coupon-card"></div>
-</div>
-
 
 
 <h3 id="&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;">&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;</h3>
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=css-gradients&amp;periods=future_1,current,past_1,past_2,past_3&amp;accessible-colours=false" frameborder="0" width="100%" height="436px"></iframe>
+
                                 
                                 </section>
                             
@@ -545,10 +497,14 @@
 
             
                 
-                <a href="inner-rounding.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 边框内圆角">
+                <a href="single-projection.html" class="navigation navigation-prev " aria-label="Previous page: 常见投影">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="text-effects.html" class="navigation navigation-next " aria-label="Next page: 常见的文字效果">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -557,7 +513,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"条纹背景","level":"1.3.4","depth":2,"next":{"title":"常见形状","level":"1.4","depth":1,"ref":"","articles":[{"title":"圆与椭圆","level":"1.4.1","depth":2,"path":"section4/ellipse.md","ref":"section4/ellipse.md","articles":[]},{"title":"切角效果","level":"1.4.2","depth":2,"path":"section4/bevel-corners.md","ref":"section4/bevel-corners.md","articles":[]},{"title":"提示气泡","level":"1.4.3","depth":2,"path":"section4/poptip.md","ref":"section4/poptip.md","articles":[]},{"title":"其他多边形","level":"1.4.4","depth":2,"path":"section4/polygon.md","ref":"section4/polygon.md","articles":[]}]},"previous":{"title":"边框内圆角","level":"1.3.3","depth":2,"path":"section3/inner-rounding.md","ref":"section3/inner-rounding.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","-sharing","sharing-plus","-lunr","-search","search-plus","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sharing":{"qq":false,"all":[],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"search-plus":{},"livereload":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"section3/stripes-background.md","mtime":"2018-04-17T17:00:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-17T07:20:17.345Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"文本行斑马条纹","level":"1.5.2","depth":2,"next":{"title":"常见的文字效果","level":"1.5.3","depth":2,"path":"section5/text-effects.md","ref":"section5/text-effects.md","articles":[]},"previous":{"title":"常见投影","level":"1.5.1","depth":2,"path":"section5/single-projection.md","ref":"section5/single-projection.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","-sharing","sharing-plus","-lunr","-search","search-plus","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sharing":{"qq":false,"all":[],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"search-plus":{},"livereload":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"section5/zebra-stripes.md","mtime":"2018-04-17T14:22:14.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-17T07:20:17.345Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

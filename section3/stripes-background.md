@@ -30,8 +30,7 @@
     width: 60%; 
     height: inherit;
     border-radius: 6px; 
-    background: repeating-linear-gradient(-45deg, #D9CFBB  25%, #C3B393 0, #C3B393 50%,
-          #D9CFBB 0, #D9CFBB 75%, #C3B393 0);
+    background: repeating-linear-gradient(-45deg, red 0%, red 25%, blue 25%, blue 50%, red 50%, red 75%, blue 75%, blue 100%);
     background-size: 16px 16px;
     animation: panoramic 3s linear infinite;
   }

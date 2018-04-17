@@ -27,13 +27,13 @@ div {
 
 ```css
 div {
-  width: 200px;
-  height: 120px;
+  width: 300px;
+  height: 160px;
   margin: 0 auto;
   background: #efebe9;
-  border: 5px solid #B4A078;
-  outline: #B4A078 dashed 1px;
-  outline-offset: -10px;
+  border: 10px solid #B4A078;
+  outline: #B4A078 dashed 2px;
+  outline-offset: -20px;
 }
 ```
 <div class="demo2">
@@ -55,13 +55,13 @@ div {
                 0 0 0 75px #CABCA0, 0 0 0 90px #C3B393;
   }
   .demo2 div {
-    width: 200px;
-    height: 120px;
+    width: 300px;
+    height: 160px;
     margin: 0 auto;
     background: #efebe9;
-    border: 5px solid #B4A078;
-    outline: #B4A078 dashed 1px;
-    outline-offset: -10px;
+    border: 10px solid #B4A078;
+    outline: #B4A078 dashed 2px;
+    outline-offset: -20px;
   }
 </style>
 
