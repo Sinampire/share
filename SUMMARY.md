@@ -6,3 +6,21 @@
 * 术语和概念
   * [专业术语](section2/perfessional-name.md)
   * [未定义行为](section2/undefined-behavior.md)
+* 边框与背景
+  * [半透明边框](section3/translucent-borders.md)
+  * [多重边框](section3/multiple-borders.md)
+  * [边框内圆角](section3/inner-rounding.md)
+  * [条纹背景](section3/stripes-background.md)
+* 常见形状
+  * [圆与椭圆](section4/ellipse.md)
+  * [切角效果](section4/bevel-corners.md)
+  * [提示气泡](section4/poptip.md)
+  * [其他多边形](section4/polygon.md)
+* 视觉效果
+  * [常见投影](section5/single-projection.md)
+  * [不规则投影](section5/irregular-projection.md)
+  * [毛玻璃效果](section5/frosted-glass.md)
+  * [斑马条纹](section5/zebra-stripes.md)
+  * [文字特效](section5/text-effects.md)
+  * [环形文字](section5/circular-text.md)
+  * [图片对比控件](section5/image-slider.md)
