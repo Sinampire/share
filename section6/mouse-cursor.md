@@ -18,7 +18,6 @@
     align-items: center;
     margin: 8px;
     border-radius: 50%;
-    font-weight: 600;
     transform: translate3d(0, 0, 0);
     transition: all .3s ease-in-out;
     background: #eee url("data:image/svg+xml,\

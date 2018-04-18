@@ -81,6 +81,7 @@ input:focus + .popTips{
     transition: transform .4s cubic-bezier(.29, .15, .5, 1.46);
 }
 ```
+> [可动画属性列表](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_animated_properties)
 
 ## 色彩
 

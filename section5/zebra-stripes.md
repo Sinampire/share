@@ -25,6 +25,8 @@
   </p>
 </div>
 
+[其他demo](http://www.zhangxinxu.com/study/201104/css3-strips-patterns-no-image.html)
+
 
 ### 浏览器支持
 
