@@ -14,7 +14,7 @@ CSS中有很多伪类，其中一个比较常用的就是:active，在 IE8 及�
 [点我查看Demo](http://demo.cssworld.cn/2/2-1.php)
 
 ```css
-这里，Firefox 和 IE/Chrome 浏览器表现不一样，这是 Firefox 浏览器的 bug ?  
+这里，Firefox 和 IE/Chrome 浏览器表现不一样， 
 这可不是bug，而是因为规范上并没有对这种场景的具体描述，  
 所以 Firefox 认为:active 发生在mousedown事件之后,
 像这种规范顾及不到的细枝末节的实现，就称为“未定义行为”。

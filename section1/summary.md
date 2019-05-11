@@ -81,10 +81,12 @@ input:focus + .popTips{
     transition: transform .4s cubic-bezier(.29, .15, .5, 1.46);
 }
 ```
+> [可动画属性列表](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_animated_properties)
 
 ## 色彩
 
-为了保持文档中示例的一致性，文档中所有示例配色均参考使用 [网易严选](http://you.163.com/) 设计规范。
+尽量保持网站色彩搭配的一致性，可参考参考使用 [网易严选](http://you.163.com/) 设计规范。
+> 合理运用`box-shadow`、 `border`、`outline`等属性，打造良好的视觉效果。
 
 ![color](../image/colors_guide.jpeg)
 
